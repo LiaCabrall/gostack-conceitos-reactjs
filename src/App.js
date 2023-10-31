@@ -15,7 +15,7 @@ function App() {
   async function handleAddRepository() {
     const response = await api.post('repositories', {
       title: 'Liana',
-      url: 'https://github.com.br',
+      url: 'https://github.com/LiaCabrall/gostack-conceitos-reactjs',
       techs: ['Nodejs', 'ReactJS', 'CSS']
     });
 
